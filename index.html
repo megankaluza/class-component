@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Classes</title>
+  </head>
+  <body>
+    <header>
+      <h1>Select your Classes</h1>
+    </header>
+  <!-- Select -->
+    <section class="select">
+      <h2>Choose Genre</h2>
+      <select name="sort-genres" id="sort-genres">
+        <option value="All">All</option>
+        <option value="Dance">Dance</option>
+        <option value="Acting">Acting</option>
+      </select>
+
+      <h2>Choose Difficulty</h2>
+      <select name="sort-difficulty" id="sort-difficulty">
+        <option value="All">All</option>
+        <option value="Intro">Intro</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Advanced">Advanced</option>
+      </select>
+
+      <h2>Choose Days</h2>
+      <select name="sort-days" id="sort-days">
+        <option value="All">All</option>
+        <option value="Weekdays">Weekdays</option>
+        <option value="Weekends">Weekends</option>
+      </select>
+    </section>
+    <hr>
+    <section class="classes">
+      <!-- Intro to Acting -->
+      <article class="acting intro weekdays" data-category="acting">
+        <h2>Introduction to Acting</h2>
+        <div class="image">
+          <img alt="Introduction to Acting" title="Introduction to Acting" src="img/intro-acting.png">
+        </div>
+        <div class="date">
+          <h3>Date: May 1-June 5</h3>
+        </div>
+        <div class="schedule">
+          <h3>Time: Tuesdays 7-9pm</h3>
+        </div>
+      </article>
+
+      <!-- Intermediate Acting -->
+      <article class="acting inter weekdays" data-category="acting">
+        <h2>Intermediate Acting with Tommy Tune</h2>
+        <div class="image">
+          <img alt="Intermediate Acting with Tommy Tune" title="Intermediate Acting with Tommy Tune" src="img/inter-acting.png">
+        </div>
+        <div class="date">
+          <h3>Date: May 7-June 11</h3>
+        </div>
+        <div class="schedule">
+          <h3>Time: Mondays 4-6pm</h3>
+        </div>
+      </article>
+
+      <!-- Advanced Acting -->
+      <article class="acting advanced weekends" data-category="acting">
+        <h2>Advanced Acting: Meisner, ALexander, and Practical Aesthetics</h2>
+        <div class="image">
+          <img alt="Advanced Acting: Meisner, ALexander, and Practical Aesthetics" title="Advanced Acting: Meisner, ALexander, and Practical Aesthetics" src="img/ad-acting.png">
+        </div>
+        <div class="date">
+          <h3>Date: May 5-June 9</h3>
+        </div>
+        <div class="schedule">
+          <h3>Time: Saturdays 1-3pm</h3>
+        </div>
+      </article>
+
+      <!-- Intro Ballet -->
+      <article class="dance intro weekdays" data-category="dance">
+        <h2>Intro to Ballet</h2>
+        <div class="image">
+          <img alt="Intro to Ballet" title="Intro to Ballet" src="img/intro-ballet.png">
+        </div>
+        <div class="date">
+          <h3>Date: May 3-June 7</h3>
+        </div>
+        <div class="schedule">
+          <h3>Time: Thursdays 7-9pm</h3>
+        </div>
+      </article>
+
+      <!-- Intermediate Tap -->
+      <article class="dance inter weekends" data-category="dance">
+        <h2>Intermediate Tap</h2>
+        <div class="image">
+          <img alt="Intermediate Tap" title="Intermediate Tap" src="img/tap.png">
+        </div>
+        <div class="date">
+          <h3>Date: May 6-June 10</h3>
+        </div>
+        <div class="schedule">
+          <h3>Time: Sundays 11-1</h3>
+        </div>
+      </article>
+
+      <!-- Ballroom -->
+      <article class="dance advanced weekdays" data-category="dance">
+        <h2>Ballroom 1: Salsa, Merengue, Rumba</h2>
+        <div class="image">
+          <img alt="Ballroom 1: Salsa, Merengue, Rumba" title="Ballroom 1: Salsa, Merengue, Rumba" src="img/ballroom.jpg">
+        </div>
+        <div class="date">
+          <h3>Date: May 2-June 6</h3>
+        </div>
+        <div class="schedule">
+          <h3>Time: Wednesdays 4-6</h3>
+        </div>
+      </article>
+    </section>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+</html>
