@@ -1,4 +1,4 @@
-# _Clas Component_
+# _Class Component_
 
 #### By _**Megan Kaluza**_
 
